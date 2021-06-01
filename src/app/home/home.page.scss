@@ -25,3 +25,55 @@
 #container a {
   text-decoration: none;
 }
+.ion-toolbar{
+  --background-color: white;
+  text-align: center;
+}
+
+
+
+.slides{
+  margin-top: 10px;
+  img{
+    border-radius: 10px;
+    box-shadow: -1px 11px 13px -6px rgb(87,86,86);
+  }
+  ion-slide{
+    padding-bottom: 20px;
+  }
+  .title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 2px grey;
+  }
+}
+
+ion-slide{
+  padding-bottom: 20px;
+}
+
+.category{
+  margin-top: 15px;
+  background-color: var(--ion-color-danger);
+  color: white;
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: -1px 11px 13px -6px var(--ion-color-danger);
+
+}
+
+.listSlides{
+  img{
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 200px;
+    box-shadow: -1px 11px 13px -6px rgb(87,86,86);
+  }
+}
+
